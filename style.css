@@ -2,6 +2,24 @@
     margin: 0%;
 }
 body{
-    background-color: blanchedalmond;
-    font-family: chau;
+    background-color: #171810;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+header{
+    display: flex;
+}
+.logo{
+    width: 90px;
+    height: 90px;
+}
+
+.navegacion{
+    list-style: none;
+    justify-content: end;
+    
+}
+.enlace{
+    color: #03fa6e;
+    margin-right: 10px;   
 }
